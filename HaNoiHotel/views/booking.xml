@@ -9,10 +9,11 @@
 <!--                <field name="customer_id"/>-->
                 <field name="check_in"/>
                 <field name="check_out"/>
-                <field name="amount_adult"/>
-                <field name="amount_child"/>
+<!--                <field name="amount_adult"/>-->
+<!--                <field name="amount_child"/>-->
 <!--                <field name="room_ids"/>-->
                 <field name="promotion"/>
+                <field name="cost"/>
             </tree>
         </field>
     </record>

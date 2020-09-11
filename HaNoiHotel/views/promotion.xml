@@ -7,7 +7,7 @@
             <tree string="Promotion">
                 <field name="name"/>
                 <field name="promotion"/>
-                <field name="description"/>
+<!--                <field name="description"/>-->
                 <field name="start_date"/>
                 <field name="expiration_date"/>
             </tree>
