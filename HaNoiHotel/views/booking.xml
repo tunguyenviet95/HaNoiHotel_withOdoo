@@ -32,7 +32,7 @@
                             <field name="amount_child"/>
                     </group>
                     <group string="Details">
-<!--                        <field name="room_ids" widget="many2many_tags" domain="[('state_room','=','available')]"/>-->
+                        <field name="room_ids" widget="many2many_tags" domain="[('room_state','=','available')]"/>
                         <field name="check_in"/>
                         <field name="check_out"/>
                         <field name="cost"/>

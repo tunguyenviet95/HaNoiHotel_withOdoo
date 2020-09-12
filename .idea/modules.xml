@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HaNoiHotel_withOdoo.iml" filepath="$PROJECT_DIR$/.idea/HaNoiHotel_withOdoo.iml" />
+      <module fileurl="file://C:/Program Files (x86)/Odoo 13.0/.idea/Odoo 13.0.iml" filepath="C:/Program Files (x86)/Odoo 13.0/.idea/Odoo 13.0.iml" />
     </modules>
   </component>
 </project>

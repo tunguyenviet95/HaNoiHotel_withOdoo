@@ -12,8 +12,8 @@ class Booking(models.Model):
     amount_child = fields.Integer(string='Child ')
     cost = fields.Float(compute='_calculate_cost', string='Cost')
     service = fields.Many2many(comodel_name='service', string='Service')
-    # room_ids = fields.One2many(comodel_name='room', inverse_name='booking_ids', string='Room')
     promotion = fields.Many2one(comodel_name='promotion', string='Promotion')
+    room_ids = fields.One2many(comodel_name='rooms', inverse_name='booking_id', string='Rooms')
 
     def _calculate_cost(self):
         for booking in self:
