@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <tree string="Rooms">
                 <field name="room_avatar" widget="image" width="50px" height="200px"/>
-                <field name="room_code" />
+                <field name="room_code"/>
                 <field name="room_type"/>
                 <field name="room_state"/>
             </tree>
@@ -21,37 +21,53 @@
                 <sheet>
                     <group string="Information">
                         <field name="room_avatar" widget="image" width="50px" height="200px"/>
-                        <field name="room_code" />
+                        <field name="room_code"/>
                         <field name="room_type"/>
                         <field name="room_state"/>
                         <field name="price_room"/>
                         <field name="room_description"/>
                     </group>
                     <group string="Room Amenities">
-                        <field name="wifi"/>
-                        <field name="air_conditioned"/>
-                        <field name="alarm_clock"/>
-                        <field name="Bathtub"/>
-                        <field name="coffeemaker"/>
-                        <field name="Connecting_Rooms"/>
-                        <field name="Free_Newspaper"/>
-                        <field name="Hairdryer_In_Room"/>
-                        <field name="High_Speed_Internet"/>
-                        <field name="Iron"/>
-                        <field name="Ironing_Board"/>
-                        <field name="Lake_View"/>
-                        <field name="Modem_in_Room"/>
-                        <field name="Shower"/>
-                        <field name="Telephone"/>
-                        <field name="Toilet"/>
-                        <field name="Turndown_Service"/>
-                        <field name="WC"/>
+                        <group>
+                            <field name="wifi"/>
+                            <field name="air_conditioned"/>
+                            <field name="alarm_clock"/>
+                            <field name="Bathtub"/>
+                            <field name="coffeemaker"/>
+                            <field name="Connecting_Rooms"/>
+                            <field name="Free_Newspaper"/>
+                            <field name="Hairdryer_In_Room"/>
+                            <field name="High_Speed_Internet"/>
+                        </group>
+                        <group>
+                            <field name="Iron"/>
+                            <field name="Ironing_Board"/>
+                            <field name="Lake_View"/>
+                            <field name="Modem_in_Room"/>
+                            <field name="Shower"/>
+                            <field name="Telephone"/>
+                            <field name="Toilet"/>
+                            <field name="Turndown_Service"/>
+                            <field name="WC"/>
+                        </group>
                     </group>
                     <group string="Booking">
                         <field name="booking_id"/>
                     </group>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+    <record id="room_search_view" model="ir.ui.view">
+        <field name="name">Room Search</field>
+        <field name="model">rooms</field>
+        <field name="arch" type="xml">
+            <search string="Room state">
+                <searchpanel>
+                    <field name="room_state" icon="fa-search-plus"/>
+                </searchpanel>
+            </search>
         </field>
     </record>
 

@@ -1,5 +1,5 @@
 from . import employee
-from . import customer
+# from . import customer
 from . import room
 from . import booking
 from . import promotion

@@ -20,21 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2526da47-b699-435b-9da8-f018529268d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/models/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/models/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/models/room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/views/customer_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/views/employee_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HaNoiHotel/views/room_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HaNoiHotel_withOdoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HaNoiHotel_withOdoo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HaNoiHotel/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/__manifest__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HaNoiHotel/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HaNoiHotel/models/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/models/booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HaNoiHotel/views/booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/views/booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaNoiHotel/models/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/models/room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaNoiHotel/views/room_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HaNoiHotel/views/room_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 13.0" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Odoo 12.0" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -118,26 +108,26 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="691" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1599903656984" />
-    <state x="741" y="335" key="FileChooserDialogImpl" timestamp="1599924850107">
+    <state x="741" y="335" key="FileChooserDialogImpl" timestamp="1599966284505">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="741" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1599924850107" />
-    <state width="1899" height="322" key="GridCell.Tab.0.bottom" timestamp="1599926269811">
+    <state x="741" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1599966284505" />
+    <state width="951" height="322" key="GridCell.Tab.0.bottom" timestamp="1599966134005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1599926269811" />
-    <state width="1899" height="322" key="GridCell.Tab.0.center" timestamp="1599926269811">
+    <state width="951" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1599966134005" />
+    <state width="951" height="322" key="GridCell.Tab.0.center" timestamp="1599966134005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="322" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1599926269811" />
-    <state width="1899" height="322" key="GridCell.Tab.0.left" timestamp="1599926269811">
+    <state width="951" height="322" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1599966134005" />
+    <state width="951" height="322" key="GridCell.Tab.0.left" timestamp="1599966134005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="322" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1599926269811" />
-    <state width="1899" height="322" key="GridCell.Tab.0.right" timestamp="1599926269811">
+    <state width="951" height="322" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1599966134005" />
+    <state width="951" height="322" key="GridCell.Tab.0.right" timestamp="1599966134005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="322" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1599926269811" />
+    <state width="951" height="322" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1599966134005" />
     <state x="184" y="313" width="651" height="534" key="find.popup" timestamp="1599925800332">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

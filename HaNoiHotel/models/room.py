@@ -7,9 +7,11 @@ class Rooms(models.Model):
 
     room_avatar = fields.Binary(string='Image')
     room_code = fields.Char(string='Mã Phòng')
-    room_type = fields.Selection(selection=[('single', 'Single'),
-                                            ('double', 'Double')],
-                                 string='Type Room', default='single')
+    room_type = fields.Selection(selection=[('standard', 'Standard'),
+                                            ('superior', 'Superior'),
+                                            ('deluxe', 'Deluxe'),
+                                            ('suite', 'Suite')],
+                                 string='Type Room', default='superior')
     room_state = fields.Selection(selection=[('available', 'Available'),
                                              ('confirmed', 'Confirmed'),
                                              ('operational', 'Operational')],
